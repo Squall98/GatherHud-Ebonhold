@@ -18,13 +18,14 @@ complétée et ajout d'une icône sur la minimap.
   transparence, position et largeur du HUD, indicateur du Nord.
 - Raccourci clavier pour afficher/masquer le HUD à la volée.
 
-## Nouveautés de cette version (v1.1.6-fr1)
+## Nouveautés de cette version (v1.2.0)
 
 Par rapport au GatherHud d'origine :
 
 1. **Traduction française complétée** — toutes les options et descriptions sont en
    français (les dernières chaînes d'angle de caméra, non traduites à l'origine, le sont
-   désormais). Le client frFR charge le français automatiquement.
+   désormais). Le client frFR charge le français automatiquement ; les autres clients
+   restent en anglais, y compris pour les textes ajoutés par cette édition.
 2. **Icône sur la minimap** — comme les autres addons, une icône permet d'accéder aux
    réglages sans taper de commande :
    - **Clic gauche** : ouvre les options
@@ -34,6 +35,8 @@ Par rapport au GatherHud d'origine :
 3. **Bibliothèques embarquées** (`LibDataBroker-1.1`, `LibDBIcon-1.0`,
    `CallbackHandler-1.0`, `LibStub`) — l'addon est autonome, l'icône fonctionne quel que
    soit l'ordre de chargement des autres addons.
+
+Historique détaillé : [CHANGELOG.md](CHANGELOG.md).
 
 ## Installation
 
@@ -72,3 +75,19 @@ Un clic l'installe et le tient à jour.
 Les bibliothèques embarquées appartiennent à leurs auteurs respectifs et sont
 redistribuées selon leurs licences d'origine. Ce dépôt redistribue GatherHud à des fins
 communautaires ; tout le mérite du code original revient à ses auteurs.
+
+---
+
+## English
+
+GatherHud draws the known mining and herbalism nodes around your character in a 3D
+perspective HUD, for WoW 3.3.5a (WotLK). This is an edition for the **Ebonhold**
+community: completed French translation and a minimap icon (left-click: options,
+right-click: toggle the HUD, can be hidden in the options). The client language is
+used automatically: French on a frFR client, English otherwise.
+
+- **Requires** GatherMate (v1, not GatherMate2); GatherMate_Data recommended; Routes optional.
+- **Install:** download the `.zip` from [Releases](../../releases) and extract the
+  `GatherHud` folder into `Interface\AddOns\`, or install it from the Ebonhold launcher.
+- **Use:** `/gatherhud` or the minimap icon opens the options; a key binding toggles the
+  HUD (`Esc` → `Key Bindings` → **GatherHud**).

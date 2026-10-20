@@ -49,3 +49,9 @@ L["Use Character Pitch"] = "Utiliser l'inclinaison du personnage"
 L["Use Minimum Pitch"] = "Utiliser l'inclinaison minimale"
 L["Use the Character pitch instead of a user-specified angle"] = "Utilise l'inclinaison de la caméra du personnage au lieu d'un angle défini manuellement."
 
+-- Icône minimap (édition Ebonhold)
+L["Hide minimap icon"] = "Masquer l'icône minimap"
+L["Show or hide the GatherHud icon on the minimap"] = "Affiche ou masque l'icône de GatherHud sur la minimap."
+L["MINIMAP_TOOLTIP_LEFTCLICK"] = "|cffffff00Clic gauche|r : ouvrir les options"
+L["MINIMAP_TOOLTIP_RIGHTCLICK"] = "|cffffff00Clic droit|r : activer/désactiver le HUD"
+

@@ -13,6 +13,12 @@ L["Enable GatherHud"] = true
 L["Enable or disable GatherHud"] = true
 L["Keybind to toggle GatherHud"] = true
 
+-- Minimap icon (Ebonhold edition)
+L["Hide minimap icon"] = true
+L["Show or hide the GatherHud icon on the minimap"] = true
+L["MINIMAP_TOOLTIP_LEFTCLICK"] = "|cffffff00Left-click|r: open the options"
+L["MINIMAP_TOOLTIP_RIGHTCLICK"] = "|cffffff00Right-click|r: enable/disable the HUD"
+
 -- GatherHud options
 L["GatherHud Options"] = true
 L["Hud X-Position"] = true

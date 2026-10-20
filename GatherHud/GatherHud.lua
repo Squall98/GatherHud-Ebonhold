@@ -554,8 +554,8 @@ local options = {
 			order = 2,
 		},
 		minimapicon = {
-			name = "Masquer l'icone minimap",
-			desc = "Affiche ou masque l'icone de GatherHud sur la minimap.",
+			name = L["Hide minimap icon"],
+			desc = L["Show or hide the GatherHud icon on the minimap"],
 			type = "toggle",
 			order = 3,
 			get = function() return db.minimap.hide end,
@@ -848,8 +848,8 @@ function GatherHud:OnInitialize()
 			end,
 			OnTooltipShow = function(tt)
 				tt:AddLine("GatherHud")
-				tt:AddLine("|cffffff00Clic gauche|r : ouvrir les options")
-				tt:AddLine("|cffffff00Clic droit|r : activer/desactiver le HUD")
+				tt:AddLine(L["MINIMAP_TOOLTIP_LEFTCLICK"])
+				tt:AddLine(L["MINIMAP_TOOLTIP_RIGHTCLICK"])
 			end,
 		})
 		if LDBIcon then
