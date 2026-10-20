@@ -1,0 +1,50 @@
+GatherHud (édition Ebonhold) - NOTICE
+====================================
+
+[FR]
+
+Cette édition est une adaptation pour la communauté du serveur Ebonhold de
+l'addon GatherHud v1.1.6 (WowAce / CurseForge, projet « gather-hud »).
+
+Auteurs du code d'origine :
+- Grum et Xinhuan : GatherHud ;
+- pettigrow : traduction française initiale.
+
+L'archive d'origine de GatherHud ne contient aucune licence : son code reste
+tous droits réservés à ses auteurs. La licence MIT du fichier LICENSE ne couvre
+que les modifications de Squall98 (traduction complétée, icône minimap,
+adaptation Ebonhold) ; elle ne change rien aux droits sur le code d'origine.
+
+Bibliothèques embarquées, chacune sous la licence de ses auteurs :
+- LibStub : domaine public (Kaelten, Cladhaire, ckknight, Mikk, Ammo,
+  Nevcairiel, joshborke) ;
+- CallbackHandler-1.0, LibDataBroker-1.1, LibDBIcon-1.0 : propriété de leurs
+  auteurs respectifs.
+
+Cette édition est partagée gratuitement, par reconnaissance pour le travail des
+auteurs. Sur simple demande de l'un d'eux (issue sur ce dépôt ou message à
+Squall98), elle sera retirée.
+
+[EN]
+
+This edition is an adaptation, for the Ebonhold server community, of the
+GatherHud v1.1.6 addon (WowAce / CurseForge, project "gather-hud").
+
+Original code authors:
+- Grum and Xinhuan: GatherHud;
+- pettigrow: initial French translation.
+
+The original GatherHud archive contains no license: its code remains all rights
+reserved by its authors. The MIT license in the LICENSE file only covers
+Squall98's modifications (completed translation, minimap icon, Ebonhold
+adaptation); it does not change the rights on the original code.
+
+Embedded libraries, each under its authors' license:
+- LibStub: public domain (Kaelten, Cladhaire, ckknight, Mikk, Ammo,
+  Nevcairiel, joshborke);
+- CallbackHandler-1.0, LibDataBroker-1.1, LibDBIcon-1.0: property of their
+  respective authors.
+
+This edition is shared free of charge, in recognition of the authors' work. On
+simple request from any of them (an issue on this repository or a message to
+Squall98), it will be removed.

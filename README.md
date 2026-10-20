@@ -76,6 +76,11 @@ Les bibliothèques embarquées appartiennent à leurs auteurs respectifs et sont
 redistribuées selon leurs licences d'origine. Ce dépôt redistribue GatherHud à des fins
 communautaires ; tout le mérite du code original revient à ses auteurs.
 
+- [LICENSE](LICENSE) : licence **MIT pour les seules modifications de Squall98**.
+- [NOTICE](NOTICE) : le code d'origine de GatherHud (sans licence publiée) n'est pas
+  couvert par cette licence et reste tous droits réservés à ses auteurs ; retrait sur
+  simple demande de leur part.
+
 ---
 
 ## English
@@ -91,3 +96,8 @@ used automatically: French on a frFR client, English otherwise.
   `GatherHud` folder into `Interface\AddOns\`, or install it from the Ebonhold launcher.
 - **Use:** `/gatherhud` or the minimap icon opens the options; a key binding toggles the
   HUD (`Esc` → `Key Bindings` → **GatherHud**).
+
+**Credits & license:** original GatherHud by Grum and Xinhuan, initial French translation
+by pettigrow, Ebonhold edition by Squall98. [LICENSE](LICENSE): MIT for Squall98's
+modifications only; the original GatherHud code has no published license and remains all
+rights reserved by its authors — see [NOTICE](NOTICE).
